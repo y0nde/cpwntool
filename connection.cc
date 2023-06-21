@@ -27,4 +27,7 @@ class ProcessConnector {
             if(rc < 0){ throw runtime_error("connection error"); }
             return fd;
         }
+        void _close(int fd){
+            close(fd);
+        }
 };

@@ -68,5 +68,4 @@ class Popener {
                 throw runtime_error("wait error");
             }
         }
-	}
 }
